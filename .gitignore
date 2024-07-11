@@ -1,0 +1,21 @@
+# Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Terraform variables files
+terraform.tfvars
+
+# .terraform directory
+.terraform/
+
+# Crash log files
+crash.log
+
+# Ignore override files as they are usually managed locally
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Include tfvars example file
+!terraform.tfvars.example
