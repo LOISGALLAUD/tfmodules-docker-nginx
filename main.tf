@@ -10,6 +10,6 @@ module "docker" {
 }
 
 module "nginx" {
-  source = "./modules/nginx"
+  source   = "./modules/nginx"
   ssh_host = var.ssh_host
 }
